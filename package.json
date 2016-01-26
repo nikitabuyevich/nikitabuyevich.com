@@ -1,5 +1,5 @@
 {
-  "name": "nikitabuyevichCom",
+  "name": "nikitabuyevich.com",
   "version": "0.0.0",
   "dependencies": {},
   "scripts": {
@@ -51,5 +51,25 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  }
+  },
+  "description": "Nikita Buyevich's personal website",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaBuyevich/nikitabuyevich.com.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "AngularJS",
+    "Bootstrap",
+    "Gulp"
+  ],
+  "author": "Nikita Buyevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaBuyevich/nikitabuyevich.com/issues"
+  },
+  "homepage": "https://github.com/NikitaBuyevich/nikitabuyevich.com#readme"
 }
