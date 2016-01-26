@@ -20,6 +20,14 @@
 			}
 		},
 		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 727,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "src/app/main/main.controller.js",
 			"settings":
 			{
@@ -160,7 +168,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -190,6 +198,35 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Material Theme/langs/Git.tmLanguage"
+						},
 						"translation.x": -0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
@@ -198,7 +235,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "src/app/main/main.controller.js",
 					"semi_transient": true,
 					"settings":
@@ -228,7 +265,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
