@@ -1,4 +1,4 @@
-# http://NikitaBuyevich.com
+# [NikitaBuyevich.com](http://NikitaBuyevich.com)
 
 My personal website coded in: 
 * HTML
