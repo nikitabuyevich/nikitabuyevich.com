@@ -1,0 +1,459 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padi",
+				"padding-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\n<div class =\"blue-grey-bg\">\n  <div class=\"container\">\n    <navbar></navbar>\n    <about></about>\n  </div>\n</div>\n\n  <div class=\"jumbotron text-center\">\n    <h1>'Allo, 'Allo!</h1>\n    <p class=\"lead\">\n      <img src=\"assets/images/yeoman.png\" alt=\"I'm Yeoman\"><br>\n      Always a pleasure scaffolding your apps.\n    </p>\n    <p class=\"animated infinite\" ng-class=\"main.classAnimation\">\n      <button type=\"button\" class=\"btn btn-lg btn-success\" ng-click=\"main.showToastr()\">Splendid Toastr</button>\n    </p>\n    <p>\n      With ♥ thanks to the contributions of<acme-malarkey extra-values=\"['Yeoman', 'Gulp', 'Angular']\"></acme-malarkey>\n    </p>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-sm-6 col-md-4\" ng-repeat=\"awesomeThing in main.awesomeThings | orderBy:'rank'\">\n      <div class=\"thumbnail\">\n        <img class=\"pull-right\" ng-src=\"assets/images/{{ awesomeThing.logo }}\" alt=\"{{ awesomeThing.title }}\">\n        <div class=\"caption\">\n          <h3>{{ awesomeThing.title }}</h3>\n          <p>{{ awesomeThing.description }}</p>\n          <p><a ng-href=\"{{awesomeThing.url}}\">{{ awesomeThing.url }}</a></p>\n        </div>\n      </div>\n    </div>\n  </div>\n\n",
+			"file": "src/app/main/main.html",
+			"file_size": 1201,
+			"file_write_time": 130991298794060198,
+			"settings":
+			{
+				"buffer_size": 1164,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 131,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulp/build.js",
+			"settings":
+			{
+				"buffer_size": 3059,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 735,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"ls",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app"
+	],
+	"file_history":
+	[
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/.gitignore",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/about/about.html",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/gulpfile.js",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/index.html",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/main/main.scss",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/imports/colors.scss",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/design/layout.txt",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/main/main.controller.js",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/index.module.js",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/gulp/build.js",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/index.scss",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.html",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.scss",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/about/about.directive.js",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/dist/CNAME",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/.publish/.gitignore",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/index.config.js",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/dist/index.html",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/.publish/CNAME",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/dist/scripts/vendor-e1a9b1d800.js",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/bower_components/angular/angular.js",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/node_modules/browser-sync-ui/public/js/app.min.js",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/bower_components/angular-ui-router/src/urlRouter.js",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/dist/.gitignore",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.directive.js",
+		"/E/SyncThing/Programming/webdev/practice/front-end/todoList/assets/css/todos.css",
+		"/E/SyncThing/Programming/webdev/practice/front-end/colorgame/colorgame.css",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/.tmp/serve/index.html",
+		"/E/SyncThing/Programming/webdev/testing-nb/src/app/main/main.html",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/css/test.scss",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/test.scss",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/.tmp/serve/index.sync-conflict-20160128-191016.html",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/favicon.ico",
+		"/C/Users/nikit/Dropbox/Programming/gamedev/GameMaker Studio/Gold Quest/GML/datafiles/console-commands.txt",
+		"/C/Users/nikit/Dropbox/Programming/gamedev/GameMaker Studio/Gold Quest/GML/README.md",
+		"/C/Users/nikit/AppData/Local/Temp/Rar$DIa0.011/README.md",
+		"/C/Users/nikit/Desktop/README.md",
+		"/C/Users/nikit/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/SyncThing/Apps/Playlist Backup/Fun Music.txt",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/webDevTec/webDevTec.service.js",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/README.md",
+		"/C/Users/nikit/.bashrc",
+		"/E/SyncThing/Apps/Playlist Backup/Anime.txt",
+		"/G/Crack/readme.txt",
+		"/E/Downloads/InDesign.CC.2015/m0nkrus.nfo",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/dist/scripts/app-52e6fdb771.js",
+		"/E/SyncThing/Apps/Playlist Backup/OST.txt",
+		"/D/Recovery.txt",
+		"/E/Downloads/3DMGAME-DarkestDungeon.Build.13407.Cracked-3DM/说明.txt",
+		"/E/SyncThing/Apps/Playlist Backup/Favorites.txt",
+		"/C/Users/nikit/.bash_profile",
+		"/C/Users/nikit/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/nikit/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/nikit/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/nikit/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/nikit/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/ideas.md",
+		"/E/Downloads/Adobe Photoshop Cc 2015 16.1 (x64) Incl Patch-=TEAM OS=-/Adobe Photoshop Cc 2015 16.1 (x64)/Adobe Photoshop Cc 2015 16.1 (x64)/Read Me.txt",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/test.html",
+		"/C/Users/nikit/AppData/Roaming/Sublime Text 3/Packages/User/Launch Chrome.sublime-build",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/ideas.txt",
+		"/C/Users/nikit/Desktop/thisis.poopie",
+		"/C/Users/nikit/Desktop/test/sharing-files/.bash_profile",
+		"/C/Users/nikit/Desktop/sb3.reg",
+		"/C/Users/nikit/Desktop/asdasdad",
+		"/C/Users/nikit/.gitignore",
+		"/C/Users/nikit/AppData/Local/Temp/Rar$DIa0.572/README.txt",
+		"/C/Users/nikit/OneDrive/Programming/webdev/meanstacktutorial/server.js",
+		"/C/Users/nikit/AppData/Roaming/ConEmu.xml",
+		"/C/Users/nikit/Desktop/test/testing_stuff.sublime-project",
+		"/C/Users/nikit/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/nikit/OneDrive/Programming/webdev/ijusthelp/public/stylesheets/circles.css",
+		"/C/Users/nikit/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/Default.sublime-keymap",
+		"/C/Users/nikit/OneDrive/Random Stuff/sublimeTextSettings.txt",
+		"/C/Users/nikit/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/nikit/Desktop/caps_lock_to_control.reg.txt"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"navbar",
+			"sc",
+			"navbar",
+			"n",
+			"ctrl+`",
+			"view",
+			"campground",
+			"primary",
+			"campground",
+			"campgrounds",
+			"s",
+			"campgrounds",
+			"    \n",
+			"campgrounds",
+			"key name=",
+			"\",\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/app/main/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "gulp/build.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3059,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3059
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Material Theme/langs/Git.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 162.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 162.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Launch Chrome.sublime-build",
+	"project": "sb-project.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

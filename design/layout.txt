@@ -1,0 +1,6 @@
+max-width: 980px
+
+palates:
+	http://ow.ly/XieMT
+	example:
+		http://ow.ly/XiePk
