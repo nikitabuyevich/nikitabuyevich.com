@@ -6,10 +6,16 @@
     .config(config);
 
   /** @ngInject */
-  function config($logProvider, toastrConfig) {
+  function config($logProvider, toastrConfig, $locationProvider) {
     // Enable log
-    $logProvider.debugEnabled(true);
-
+    if(window.history && window.history.pushState){
+      $locationProvider.html5Mode({
+      enabled: true,
+      requireBase: false
+      });
+    }
+    
+    $locationProvider.html5Mode(true);
     // Set options third-party lib
     toastrConfig.allowHtml = true;
     toastrConfig.timeOut = 3000;
