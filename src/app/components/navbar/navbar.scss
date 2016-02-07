@@ -18,6 +18,7 @@
   margin: 0;
 }
 
+
 // style of the navbar text
 .navbar-default .navbar-nav > li > a {
 	margin-top: 40px;
@@ -30,12 +31,23 @@
   line-height: 1.2;
   text-align: right;
   text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.4);
+  transition-duration: 0.2s;
 
   &:hover {
-    text-shadow: 0px 0px 5px rgba(128, 203, 196, 0.5),
+    text-shadow: 0px 0px 5px rgba(128, 203, 196, 0.8),
     0px 3px 7px rgba(0, 0, 0, 0.4);
     color: $link-text;
   }
+  &:active {
+    color: white !important;
+    outline: none;
+    text-decoration: none; 
+  }
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: $link-text;
+  
 }
 
 // The Blog navbar text link stands out
@@ -50,4 +62,27 @@
 
 .navbar-default .navbar-nav > li > a {
 	margin-right: 15px;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: $title-text;
+  transition: 0.35s;
+    &:active {
+    background: $blue-grey-300;
+  }
+  &:focus {
+    background: $blue-grey-300;
+  }
+  &:hover {
+    background: $blue-grey-300;
+  }
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: $title-text;
+}
+
+.container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+  border-color: $title-text;
 }

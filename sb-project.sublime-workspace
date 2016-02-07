@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"getElem",
+				"getElementById(id)	Element"
+			],
+			[
 				"padi",
 				"padding-top"
 			]
@@ -15,15 +19,23 @@
 			"file": "src/app/main/main.html",
 			"settings":
 			{
-				"buffer_size": 1162,
+				"buffer_size": 1173,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/app/components/about/about.scss",
+			"file": "src/app/index.scss",
 			"settings":
 			{
-				"buffer_size": 291,
+				"buffer_size": 1060,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/app/main/main.scss",
+			"settings":
+			{
+				"buffer_size": 46,
 				"line_ending": "Windows"
 			}
 		},
@@ -31,23 +43,31 @@
 			"file": "src/app/components/about/about.html",
 			"settings":
 			{
-				"buffer_size": 182,
+				"buffer_size": 1365,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/app/components/githubContributor/githubContributor.service.js",
+			"file": "src/app/components/about/about.scss",
 			"settings":
 			{
-				"buffer_size": 870,
+				"buffer_size": 1336,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/app/components/navbar/navbar.html",
+			"file": "src/app/components/navbar/navbar.scss",
 			"settings":
 			{
-				"buffer_size": 1009,
+				"buffer_size": 1696,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/app/imports/colors.scss",
+			"settings":
+			{
+				"buffer_size": 295,
 				"line_ending": "Windows"
 			}
 		},
@@ -56,38 +76,6 @@
 			"settings":
 			{
 				"buffer_size": 660,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/app/components/navbar/navbar.js",
-			"settings":
-			{
-				"buffer_size": 65,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/SyncThing/Programming/webdev/practice/front-end/todoList/assets/js/todos.js",
-			"settings":
-			{
-				"buffer_size": 670,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/E/SyncThing/Programming/webdev/practice/front-end/todoList/index.html",
-			"settings":
-			{
-				"buffer_size": 950,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/app/components/navbar/navbar.scss",
-			"settings":
-			{
-				"buffer_size": 965,
 				"line_ending": "Windows"
 			}
 		}
@@ -141,24 +129,31 @@
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/about",
-		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/githubContributor",
-		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/malarkey",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/imports",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/main"
 	],
 	"file_history":
 	[
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.html",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/index.scss",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.controller.js",
+		"/C/Users/nikit/AppData/Local/Temp/Rar$DIa0.253/ReadMe.txt",
+		"/E/Downloads/Adobe Illustrator CC 2015 v19.2.1.147.1 (x86x64) Incl Crack & Update [SadeemPC]/Adobe Illustrator CC 2015 v19.2.1.147.1 (x64) Incl Crack/Crack Adobe 2015/or.XFORCE Keygen 2015/install.txt",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.js",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/design/layout.txt",
+		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.directive.js",
+		"/E/SyncThing/Programming/webdev/practice/front-end/todoList/assets/js/todos.js",
+		"/E/SyncThing/Programming/webdev/practice/front-end/todoList/index.html",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/imports/colors.scss",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/main/main.scss",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/about/about.html",
-		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.controller.js",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/index.html",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/index.config.js",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.scss",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/README.md",
-		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/design/layout.txt",
 		"/E/SyncThing/Programming/webdev/yeoman-angular-test/src/index.html",
 		"/E/SyncThing/Programming/webdev/yeoman-angular-test/src/app/index.config.js",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/node_modules/selenium-webdriver/lib/test/data/slowLoadingResourcePage.html",
@@ -170,8 +165,6 @@
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/gulp/build.js",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/main/main.controller.js",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/index.module.js",
-		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/index.scss",
-		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.html",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/about/about.directive.js",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/dist/CNAME",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/.publish/.gitignore",
@@ -182,7 +175,6 @@
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/node_modules/browser-sync-ui/public/js/app.min.js",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/bower_components/angular-ui-router/src/urlRouter.js",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/dist/.gitignore",
-		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.directive.js",
 		"/E/SyncThing/Programming/webdev/practice/front-end/todoList/assets/css/todos.css",
 		"/E/SyncThing/Programming/webdev/practice/front-end/colorgame/colorgame.css",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/.tmp/serve/index.html",
@@ -250,6 +242,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"center-block",
+			"center",
+			"class=\"img-responsive\"",
+			"class=\" \"",
+			"img-test",
+			"center-block",
+			"md",
+			"img-test",
+			"xs",
+			"md",
+			"xs",
+			"md",
+			"10",
+			"2",
 			"navbar",
 			"sc",
 			"navbar",
@@ -283,7 +289,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -292,15 +298,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1162,
+						"buffer_size": 1173,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1162,
-								1162
+								513,
+								513
 							]
 						],
 						"settings":
@@ -317,16 +323,50 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/app/components/about/about.scss",
+					"file": "src/app/index.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 291,
+						"buffer_size": 1060,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								898,
+								898
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/app/main/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46,
 						"regions":
 						{
 						},
@@ -349,220 +389,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/app/components/about/about.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 182,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								173,
-								173
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/app/components/githubContributor/githubContributor.service.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 870,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/app/components/navbar/navbar.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1009,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								202,
-								202
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "src/app/components/navbar/navbar.directive.js",
+					"buffer": 3,
+					"file": "src/app/components/about/about.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 660,
+						"buffer_size": 1365,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								73
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/app/components/navbar/navbar.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 65,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								65,
-								65
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext.tmTheme",
-							"incomplete_sync": null,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/E/SyncThing/Programming/webdev/practice/front-end/todoList/assets/js/todos.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 670,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/E/SyncThing/Programming/webdev/practice/front-end/todoList/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 950,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								441,
-								441
+								474,
+								474
 							]
 						],
 						"settings":
@@ -572,30 +416,31 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "src/app/components/navbar/navbar.scss",
+					"buffer": 4,
+					"file": "src/app/components/about/about.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 965,
+						"buffer_size": 1336,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								573,
-								573
+								714,
+								714
 							]
 						],
 						"settings":
@@ -609,10 +454,110 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/app/components/navbar/navbar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1323,
+								1323
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1254.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/app/imports/colors.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/app/components/navbar/navbar.directive.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								653,
+								649
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

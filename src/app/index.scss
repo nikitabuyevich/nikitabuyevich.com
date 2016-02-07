@@ -2,9 +2,9 @@
  *  If you want to override some bootstrap variables, you have to change values here.
  *  The list of variables are listed here bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
  */
-$navbar-inverse-link-color: #5AADBB;
 $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
-
+// import color variables
+@import 'imports/colors';
 /**
  *  Do not remove the comments below. It's the markers used by wiredep to inject
  *  sass dependencies when defined in the bower.json of your dependencies
@@ -15,7 +15,6 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
-  color: #000;
   padding: 0.2em 0;
 }
 
@@ -33,6 +32,11 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
   .container {
     width: 980px;
   }
+}
+
+body {
+  background: $blue-grey-900;
+  color: $normal-text;
 }
 
 /**
