@@ -28,6 +28,13 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
   }
 }
 
+// change the max-width for widths greater than 1200px to be 980px for bootstrap
+@media (min-width: 1200px) {
+  .container {
+    width: 980px;
+  }
+}
+
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically

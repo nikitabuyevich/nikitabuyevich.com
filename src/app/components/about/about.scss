@@ -1,0 +1,23 @@
+.center {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-fname {
+  font-size: 60px;
+  font-family: "Ubuntu Mono";
+  color: rgb(118, 200, 248);
+  border-bottom: 2px solid $title-text;
+  box-shadow: 0px 1px 0px black;
+  text-transform: uppercase;
+  text-align: center;
+	line-height: 1.2;
+	letter-spacing: 10px;
+  text-shadow: 0px 3px 9.8px rgba(0, 0, 0, 0.4);
+}
+
+.title-lname {
+	@extend .title-fname;
+	letter-spacing: 0px;
+}
