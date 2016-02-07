@@ -5,6 +5,13 @@
 $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 // import color variables
 @import 'imports/colors';
+
+@font-face {
+    font-family: "Consolas-fnt";
+    src: url(../../../assets/fonts/Consolas.ttf) format("truetype");
+    font-family: "UbuntuMono-fnt";
+    src: url(../../../assets/fonts/UbuntuMono.ttf) format("truetype");
+}
 /**
  *  Do not remove the comments below. It's the markers used by wiredep to inject
  *  sass dependencies when defined in the bower.json of your dependencies

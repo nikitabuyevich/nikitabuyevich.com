@@ -27,7 +27,7 @@
 			"file": "src/app/index.scss",
 			"settings":
 			{
-				"buffer_size": 1060,
+				"buffer_size": 1284,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "src/app/components/about/about.scss",
 			"settings":
 			{
-				"buffer_size": 1336,
+				"buffer_size": 1388,
 				"line_ending": "Windows"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "src/app/components/navbar/navbar.scss",
 			"settings":
 			{
-				"buffer_size": 1696,
+				"buffer_size": 1578,
 				"line_ending": "Windows"
 			}
 		},
@@ -137,6 +137,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/nikit/AppData/Local/Temp/Rar$DIa0.194/README.txt",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.html",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/index.scss",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.controller.js",
@@ -323,7 +324,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -332,15 +333,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1060,
+						"buffer_size": 1284,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								898,
-								898
+								481,
+								495
 							]
 						],
 						"settings":
@@ -354,10 +355,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 198.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -423,7 +424,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -432,15 +433,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1336,
+						"buffer_size": 1388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								714,
-								714
+								594,
+								594
 							]
 						],
 						"settings":
@@ -454,10 +455,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 132.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -466,15 +467,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1696,
+						"buffer_size": 1578,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1323,
-								1323
+								287,
+								336
 							]
 						],
 						"settings":
@@ -487,8 +488,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 1254.0,
+						"translation.x": -0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -523,7 +524,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -557,7 +558,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
