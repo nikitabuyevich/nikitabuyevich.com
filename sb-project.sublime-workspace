@@ -27,7 +27,7 @@
 			"file": "src/app/main/main.html",
 			"settings":
 			{
-				"buffer_size": 1203,
+				"buffer_size": 1212,
 				"line_ending": "Unix"
 			}
 		},
@@ -145,6 +145,7 @@
 	],
 	"file_history":
 	[
+		"/E/SyncThing/download",
 		"/C/Users/nikit/AppData/Local/Temp/Rar$DIa0.194/README.txt",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/components/navbar/navbar.html",
 		"/E/SyncThing/Programming/webdev/nikitabuyevich.com/src/app/index.scss",
@@ -341,15 +342,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1203,
+						"buffer_size": 1212,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								481,
-								482
+								144,
+								151
 							]
 						],
 						"settings":
