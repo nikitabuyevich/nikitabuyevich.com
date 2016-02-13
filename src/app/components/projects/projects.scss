@@ -1,11 +1,11 @@
-.box {
-  border-radius: 25px;
+.projects {
+  border-radius: 15px;
   text-align: center;
   background: $blue-grey-600;
   position: relative;
   z-index: 1;
 	padding: 15px;
-	max-width: 235px;
+	max-width: 300px;
 	margin-bottom: 20px;
 	overflow: hidden;
 	&:hover {
@@ -16,13 +16,13 @@
 		}
 		span {
 			opacity: 1;
-			animation: enterAnimBottom 0.5s 1;
 			z-index: 1;
 		}
 	}
 	img {
 		position: relative;
 		max-width: 100%;
+		margin-bottom: 1px;
 		height: auto !important;
 		width: 100%;
 		filter: grayscale(100%);
@@ -32,11 +32,63 @@
 	}
 
 	span {
+		font-family: "Consolas", "Consolas-fnt", Verdana;
+		text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.4);
+		color: rgb(118, 185, 185);
+		font-size: 12px;
+		top: 0;
 		left: 0px;
 		right: 0px;
 		position: absolute;
-		transition: all 0.5s;
+		transition: all 0.5s ease-in-out;
 		opacity: 0;
+
+		p {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
+	strong {
+		font-weight: bold;
+		font-size: 15px;
+	}
+
+	#screenshot {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	.slide-left-right {
+		text-decoration:none;
+		display: inline-block;
+
+		&:after {
+			content: '';
+			display: block;
+			border-bottom: 3px solid $highlight-text;
+			width: 0;
+			background: transparent;
+			transition: width .5s ease, background-color .5s ease;
+			box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.4);
+		}
+
+		&:hover:after {
+			width: 100%;
+			}
 	}	
 }
+
+.projects-container {
+	@extend .container;
+	max-width: 700px;
+}
+
+.body > p {
+	letter-spacing: 5px;
+}
+
+
+
+
 
