@@ -1,4 +1,42 @@
 .box {
   border-radius: 25px;
+  text-align: center;
   background: $blue-grey-600;
+  position: relative;
+  z-index: 1;
+	padding: 15px;
+	max-width: 235px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	&:hover {
+		img {
+			opacity: 0;
+			transform: scale(10);
+			filter: grayscale(0%);			
+		}
+		span {
+			opacity: 1;
+			animation: enterAnimBottom 0.5s 1;
+			z-index: 1;
+		}
+	}
+	img {
+		position: relative;
+		max-width: 100%;
+		height: auto !important;
+		width: 100%;
+		filter: grayscale(100%);
+		opacity: 1;
+		transform: scale(1);
+		transition: all 0.5s ease-in-out;
+	}
+
+	span {
+		left: 0px;
+		right: 0px;
+		position: absolute;
+		transition: all 0.5s;
+		opacity: 0;
+	}	
 }
+
