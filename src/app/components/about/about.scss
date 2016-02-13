@@ -1,59 +1,16 @@
-.center {
-    float: none;
-    margin: 0 auto;
-    text-align: center;
-}
-
 .title-fname {
-  font-size: 60px;
-  font-family:  "Ubuntu Mono", "UbuntuMono-fnt", Verdana;
-  color: rgb(118, 200, 248);
-  border-bottom: 2px solid $title-text;
-  box-shadow: 0px 1px 0px black;
-  text-transform: uppercase;
-  text-align: center;
-	line-height: 1.2;
-	letter-spacing: 10px;
-  text-shadow: 0px 3px 9.8px rgba(0, 0, 0, 0.4);
+  @extend .title;
+  letter-spacing: 10px;
 }
 
 .title-lname {
-	@extend .title-fname;
+	@extend .title;
 	letter-spacing: 0px;
-}
-.body a {
-  transition-duration: 0.25s;
-}
-.body {
-  font-size: 19px;
-  font-family: "Consolas", "Consolas-fnt", Verdana;
-  color: rgb(118, 185, 185);
-  line-height: 2;
-  text-align: center;
-  text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.4);
-  outline: none;
-  a:hover {
-    text-decoration: none;
-    text-shadow: 0px 0px 5px rgba(128, 203, 196, 0.5),
-    0px 3px 7px rgba(0, 0, 0, 0.4);
-    outline: none;
-  }
-  a:link {
-    outline: none;
-    text-decoration: none;  // removes annoying underline after clicking on a link
-  }
-}
-
-.highlight {
-  color: $highlight-text;
-}
-
-.link {
-  color: $link-text;
 }
 
 .social-icons {
   margin-top: 40px;
+  margin-bottom: 20px;
   height: 70px;
   transition-duration: 0.5s;
   &:hover {

@@ -3,13 +3,13 @@
 
   angular
     .module('nikitabuyevichCom')
-    .directive('about', about);
+    .directive('projects', projects);
 
   /** @ngInject */
-  function about() {
+  function projects() {
     var directive = {
       restrict: 'E',
-      templateUrl: 'app/components/about/about.html'
+      templateUrl: 'app/components/projects/projects.html'
     };
 
     return directive;

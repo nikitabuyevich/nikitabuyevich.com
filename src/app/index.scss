@@ -34,16 +34,15 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
   }
 }
 
+body {
+  background: $blue-grey-900;
+}
+
 // change the max-width for widths greater than 1200px to be 980px for bootstrap
 @media (min-width: 1200px) {
   .container {
     width: 980px;
   }
-}
-
-body {
-  background: $blue-grey-900;
-  color: $normal-text;
 }
 
 /**

@@ -1,3 +1,61 @@
 .blue-grey-bg {
 	background: $blue-grey-900;
 }
+
+.light-blue-grey-bg {
+	background: $blue-grey-800;
+}
+
+.center {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.margin-top {
+	margin-top: 20px;
+}
+
+.body {
+  font-size: 19px;
+  font-family: "Consolas", "Consolas-fnt", Verdana;
+  color: rgb(118, 185, 185);
+  line-height: 2;
+  text-align: center;
+  text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.4);
+  outline: none;
+  a {
+    transition-duration: 0.25s;
+  }
+  a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 5px rgba(128, 203, 196, 0.5),
+    0px 3px 7px rgba(0, 0, 0, 0.4);
+    outline: none;
+  }
+  a:link {
+    outline: none;
+    text-decoration: none;  // removes annoying underline after clicking on a link
+  }
+}
+
+.title {
+  font-size: 60px;
+  font-family:  "Ubuntu Mono", "UbuntuMono-fnt", Verdana;
+  color: rgb(118, 200, 248);
+  border-bottom: 2px solid $title-text;
+  box-shadow: 0px 1px 0px black;
+  text-transform: uppercase;
+  text-align: center;
+	line-height: 1.2;
+	letter-spacing: 8px;
+  text-shadow: 0px 3px 9.8px rgba(0, 0, 0, 0.4);
+}
+
+.highlight {
+  color: $highlight-text;
+}
+
+.link {
+  color: $link-text;
+}
