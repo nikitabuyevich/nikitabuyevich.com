@@ -39,6 +39,25 @@
   }
 }
 
+.slide-left-right {
+  text-decoration:none;
+  display: inline-block;
+
+  &:after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid $highlight-text;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.4);
+  }
+
+  &:hover:after {
+    width: 100%;
+    }
+} 
+
 .title {
   font-size: 60px;
   font-family:  "Ubuntu Mono", "UbuntuMono-fnt", Verdana;
