@@ -19,10 +19,14 @@
 			z-index: 1;
 		}
 	}
+
+	a img {
+		margin-bottom: 3px;
+	}
+
 	img {
 		position: relative;
 		max-width: 100%;
-		margin-bottom: 5px;
 		height: auto !important;
 		width: 100%;
 		filter: grayscale(100%);
