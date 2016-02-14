@@ -11,13 +11,13 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="nb-navbar">
+    <div class="collapse navbar-collapse" id="nb-navbar" ng-controller="ScrollToCtrl">
       <ul class="nav navbar-nav navbar-right">
         <li class="outside-link"><a href="#">Blog</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Skill</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about" du-smooth-scroll du-scrollspy>About</a></li>
+        <li><a href="#projects" du-smooth-scroll du-scrollspy>Projects</a></li>
+        <li><a href="#skills" du-smooth-scroll du-scrollspy>Skill</a></li>
+        <li><a href="#contact" du-smooth-scroll du-scrollspy>Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

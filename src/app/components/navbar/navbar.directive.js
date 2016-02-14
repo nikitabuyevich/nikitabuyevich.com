@@ -3,8 +3,9 @@
 
   angular
     .module('nikitabuyevichCom')
-    .directive('navbar', navbar);
-
+    .value('duScrollDuration', 1250)
+    .directive('navbar', navbar)
+    .controller('ScrollToCtrl', function($scope, $document){}).value('duScrollOffset', 10);
   /** @ngInject */
   function navbar() {
     var directive = {
