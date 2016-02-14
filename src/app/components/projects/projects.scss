@@ -84,7 +84,8 @@
 	max-width: 700px;
 }
 
-.body > p {
+.body-stretch {
+	@extend .body;
 	letter-spacing: 5px;
 }
 
