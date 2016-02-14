@@ -61,12 +61,14 @@
 
 .navbar-default .navbar-toggle {
   border-color: $title-text;
+  margin-top: 20px;
+  margin-right: 30px;
   transition: 0.35s;
     &:active {
-    background: $blue-grey-300;
+    background: $blue-grey-900;
   }
   &:focus {
-    background: $blue-grey-300;
+    background: $blue-grey-900;
   }
   &:hover {
     background: $blue-grey-300;
