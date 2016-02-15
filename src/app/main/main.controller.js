@@ -1,5 +1,5 @@
 (function() {
-  'use strict';
+
 
   angular
     .module('nikitabuyevichCom')
@@ -13,6 +13,13 @@
     $scope.jalapenoSpicy = function() {
         $scope.spice = 'jalapeño';
     };
+    $scope.alertTest = function() {
+      alert('alertTest in main');
+    };
+
+    $scope.$on('$viewContentLoaded', function() {
+      alert('index route test');
+    });
 
     function canvasJS() {
       alert(document.querySelector('.canvas-area').clientHeight);
@@ -141,6 +148,7 @@ if (canvas && canvas.getContext) {
 var body = document.body,
     timer;
     };
+
 }]);
 
 })();

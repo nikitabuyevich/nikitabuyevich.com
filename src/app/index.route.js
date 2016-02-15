@@ -4,7 +4,6 @@
   angular
     .module('nikitabuyevichCom')
     .config(routerConfig);
-
   /** @ngInject */
   function routerConfig($stateProvider, $urlRouterProvider) {
     $stateProvider
