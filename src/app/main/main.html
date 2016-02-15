@@ -1,9 +1,15 @@
 <!-- ABOUT VIEW -->
-<div class="blue-grey-bg">
+
+<div class="canvas-area">
+<div class="content blue-grey-bg">
+  <div class="hide-overflow">
+    <canvas id="canvasElement">Your browser does not support the Canvas element.</canvas>
+  </div>
   <div class="container">
     <navbar></navbar>
     <about></about>
   </div>
+</div>
 </div>
 
 <!-- PROJECTS VIEW -->
@@ -13,11 +19,24 @@
   </div>
 </div>
 
-<!-- CONTACT VIEW -->
+<!-- SKILLS VIEW -->
 <div class="blue-grey-bg">
+  <div class="container">
+    <skills></skills>
+  </div>
+</div>
+
+<!-- CONTACT VIEW -->
+<div class="light-blue-grey-bg">
     <contact></contact>
 </div>
 
+<div ng-controller="MainController">
+ <button ng-click="chiliSpicy()">Chili</button>
+ <button ng-click="jalapenoSpicy()">Jalapeño</button>
+ <button ng-click="testAlert()">Alert me!</button>
+ <p>The food is {{spice}} spicy!</p>
+</div>  
 
 <!--   <div class="jumbotron text-center">
     <h1>'Allo, 'Allo!</h1>
