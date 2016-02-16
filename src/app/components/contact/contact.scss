@@ -1,8 +1,6 @@
 .contact {
-  padding-top: 26px;
-  padding-bottom: 22px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 15px 0 15px 0;
+
 
   a {
     cursor: pointer;
@@ -21,7 +19,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80cbc4', endColorstr='#6db0aa',GradientType=0 ); /* IE6-9 */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-right: 20px;
+
   }
 
   .center {
@@ -38,7 +36,7 @@
 /* xs < 768 */
 @media screen and (max-width: 767px) {
     .contact .title {
-          font-size: 1.3em;
+          font-size: 1em;
     }
 }
 

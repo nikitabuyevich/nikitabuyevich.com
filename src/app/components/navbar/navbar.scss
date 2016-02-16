@@ -49,8 +49,18 @@
 .navbar-default .navbar-nav > .outside-link > a  {
   color: $title-text;
 
-  &:hover {
+  &:hover, &:focus, &:active {
     color: $title-text;
+  }
+
+}
+
+// The Resume navbar text link stands out
+.navbar-default .navbar-nav > .outside-link-resume > a  {
+  color: $contact-text;
+
+  &:hover, &:focus, &:active {
+    color: $contact-text;
   }
 
 }
