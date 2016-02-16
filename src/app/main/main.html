@@ -60,7 +60,7 @@ function TimeUpdate(e) {
             particles[n].vx *= 1 + Math.random() * .00000000005
         }
         if (particles[n].y > document.querySelector('.canvas-area').clientHeight) {
-            particles[n].vy = -0.2 - Math.random()
+            particles[n].vy = -0.05 - Math.random()
         } else if (particles[n].y < 0) {
             particles[n].y = document.querySelector('.canvas-area').clientHeight;
             particles[n].vy = 1
@@ -78,7 +78,7 @@ function TimeUpdate(e) {
             var o = particles[n].x > e.x ? particles[n].x : e.x;
             var u = particles[n].y < e.y ? particles[n].y : e.y;
             context.quadraticCurveTo(o, u, e.x, e.y);
-            context.strokeStyle = "rgba(84,110,122," + (1 - r / MAX_DIST_2) + " )";
+            context.strokeStyle = "rgba(128,203,196," + (1 - r / MAX_DIST_2) + " )";
             i[n][t] = 1;
             i[t][n] = 1
         });
@@ -99,7 +99,7 @@ function MouseMove(e) {
 }
 
 function Draw(e, t) {
-    context.strokeStyle = "#607D8B";
+    context.strokeStyle = "#80CBC4";
     context.lineWidth = 4;
     context.lineTo(e, t);
     context.stroke()
@@ -118,11 +118,11 @@ function ResizeCanvas(e) {
         particles.push({
             x: Math.random() * window.innerWidth,
             y: Math.random() * window.innerHeight,
-            vx: 0.1,
-            vy: -0.2 * Math.random() - Math.random() - .05,
+            vx: 0,
+            vy: -0.05 * Math.random() - Math.random() - .0005,
             history: [],
             size: 2,
-            color: "#607D8B"
+            color: "#80CBC4"
         })
     }
 }
