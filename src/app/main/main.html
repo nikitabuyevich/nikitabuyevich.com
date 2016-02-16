@@ -1,5 +1,4 @@
 <!-- ABOUT VIEW -->
-
 <div class="canvas-area">
 <div class="content blue-grey-bg">
   <div class="hide-overflow">
@@ -7,7 +6,7 @@
   </div>
   <div class="container">
     <navbar></navbar>
-    <about></about>
+    <about data-ng-init="init()"></about>
   </div>
 </div>
 </div>
@@ -31,40 +30,135 @@
     <contact></contact>
 </div>
 
-<div ng-controller="MainController">
- <button ng-click="chiliSpicy()">Chili</button>
- <button ng-click="jalapenoSpicy()">Jalapeño</button>
- <button ng-click="testAlert()">Alert me!</button>
- <p>The food is {{spice}} spicy!</p>
-</div>  
-
 <script type="text/javascript"> 
 
+    function Initialize() {
+  canvas.addEventListener("mousemove", MouseMove, false);
+  window.addEventListener("resize", ResizeCanvas, false);
+  setInterval(TimeUpdate, 20);
+  context.beginPath();
+  ResizeCanvas();
+}
+
+function TimeUpdate(e) {
+    context.clearRect(0, 0, window.innerWidth, document.querySelector('.canvas-area').clientHeight);
+    var t, n, r, i = new Array(points.length);
+    for (n = 0; n < particles.length; n++) {
+        i[n] = new Array(particles.length);
+        for (r = 0; r < particles.length; r++) {
+            i[n][r] = 0
+        }
+    }
+    for (var n = 0; n < particles.length; n++) {
+        particles[n].x += particles[n].vx;
+        particles[n].y += particles[n].vy;
+        if (particles[n].x > window.innerWidth) {
+            particles[n].vx = -1 - Math.random()
+        } else if (particles[n].x < 0) {
+            particles[n].vx = 1 + Math.random()
+        } else {
+            particles[n].vx *= 1 + Math.random() * .00000000005
+        }
+        if (particles[n].y > document.querySelector('.canvas-area').clientHeight) {
+            particles[n].vy = -0.2 - Math.random()
+        } else if (particles[n].y < 0) {
+            particles[n].y = document.querySelector('.canvas-area').clientHeight;
+            particles[n].vy = 1
+        } else {
+            particles[n].vy *= 1
+        }
+        context.strokeStyle = particles[n].color;
+        context.beginPath();
+        var s = MAX_DIST_2;
+        particles.forEach(function(e, t) {
+            var r = Math.pow(e.x - particles[n].x, 2) + Math.pow(e.y - particles[n].y, 2);
+            if (r < s && e != particles[n]) s = r;
+            if (e == particles[n] || r > MAX_DIST_2 || i[n][t]) return;
+            context.moveTo(particles[n].x, particles[n].y);
+            var o = particles[n].x > e.x ? particles[n].x : e.x;
+            var u = particles[n].y < e.y ? particles[n].y : e.y;
+            context.quadraticCurveTo(o, u, e.x, e.y);
+            context.strokeStyle = "rgba(84,110,122," + (1 - r / MAX_DIST_2) + " )";
+            i[n][t] = 1;
+            i[t][n] = 1
+        });
+        context.stroke();
+        var o = DistanceBetween(mouse, particles[n]);
+        o = Math.max(Math.min(15 - o / 10, 10), 1);
+        context.fillStyle = particles[n].color;
+        context.beginPath();
+        context.arc(particles[n].x, particles[n].y, particles[n].size * o, 0, Math.PI * 2, true);
+        context.closePath();
+        context.fill()
+    }
+}
+
+function MouseMove(e) {
+    mouse.x = e.layerX;
+    mouse.y = e.layerY
+}
+
+function Draw(e, t) {
+    context.strokeStyle = "#607D8B";
+    context.lineWidth = 4;
+    context.lineTo(e, t);
+    context.stroke()
+}
+
+var particles = [];
+var dots = Math.floor(window.innerWidth / 42);
+
+
+function ResizeCanvas(e) {
+    canvas.width = window.innerWidth;
+    canvas.height = document.querySelector('.canvas-area').clientHeight;
+    particles = [];
+    dots = Math.floor(window.innerWidth / 42);
+    for (var i = 0; i < dots; i++) {
+        particles.push({
+            x: Math.random() * window.innerWidth,
+            y: Math.random() * window.innerHeight,
+            vx: 0.1,
+            vy: -0.2 * Math.random() - Math.random() - .05,
+            history: [],
+            size: 2,
+            color: "#607D8B"
+        })
+    }
+}
+
+function DistanceBetween(e, t) {
+    var n = t.x - e.x;
+    var r = t.y - e.y;
+    return Math.sqrt(n * n + r * r)
+}
+
+
+var mouse = {
+    x: 0,
+    y: 0
+};
+var canvas = document.getElementById("canvasElement");
+var points = [],
+    width = canvas.width,
+    height = canvas.height,
+    intsy;
+var MAX_DIST_2 = 100 * 100;
+var circRadius = 4;
+if (canvas && canvas.getContext) {
+    var context = canvas.getContext("2d");
+    Initialize()
+}(jQuery);
+var body = document.body,
+    timer;
+
+  var ranInit = false;
+  var checkHeight = setInterval(function(){
+  if ((document.querySelector('.canvas-area').clientHeight >= 0) && (!ranInit)) { 
+    Initialize();
+    ranInit = true;
+  }
+  else if (ranInit)
+    clearInterval(checkHeight);
+}, 200);
 </script>
-
-<!--   <div class="jumbotron text-center">
-    <h1>'Allo, 'Allo!</h1>
-    <p class="lead">
-      <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
-      Always a pleasure scaffolding your apps.
-    </p>
-    <p class="animated infinite" ng-class="main.classAnimation">
-      <button type="button" class="btn btn-lg btn-success" ng-click="main.showToastr()">Splendid Toastr</button>
-    </p>
-    <p>
-      With ♥ thanks to the contributions of<acme-malarkey extra-values="['Yeoman', 'Gulp', 'Angular']"></acme-malarkey>
-    </p>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-6 col-md-4" ng-repeat="awesomeThing in main.awesomeThings | orderBy:'rank'">
-      <div class="thumbnail">
-        <img class="pull-right" ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">
-        <div class="caption">
-          <h3>{{ awesomeThing.title }}</h3>
-          <p>{{ awesomeThing.description }}</p>
-          <p><a ng-href="{{awesomeThing.url}}">{{ awesomeThing.url }}</a></p>
-        </div>
-      </div>
-    </div>
-  </div>

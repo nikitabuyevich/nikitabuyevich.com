@@ -1,5 +1,10 @@
 .blue-grey-bg {
-	background: $blue-grey-900;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#263238+0,37474f+100 */
+background: #263238; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #263238 0%, #37474f 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #263238 0%,#37474f 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #263238 0%,#37474f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#263238', endColorstr='#37474f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .light-blue-grey-bg {
@@ -81,4 +86,6 @@
 
 #canvasElement {
   position: absolute;
+  margin: 0;
+  padding: 0;
 }
