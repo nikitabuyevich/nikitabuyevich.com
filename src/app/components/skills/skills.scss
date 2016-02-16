@@ -58,33 +58,37 @@
   @extend .container;
   max-width: 800px;
   margin-bottom: 30px;
+  cursor: pointer;
 
   svg {
     max-width: 12em;
   }
 
   .textHover {
-    display:none;
+    opacity: 0;
     position:absolute;
-    width: 100%;
+    width: 0%;
     top:0%;
     left: 0;
     padding: 5px;
-    font-size: 1.5em;
-    border-radius: 25px;
+    font-size: 0em;
+    border-radius: 15px;
     text-align:center;
     color: $title-text;
     font-family: "Consolas", "Consolas-fnt", Verdana;
     text-shadow: 1px 1px 1px black;
     border: 2px solid $blue-grey-800;
     background: #42555e; /* Old browsers */
-background: -moz-linear-gradient(top,  #42555e 0%, #37474f 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #42555e 0%,#37474f 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #42555e 0%,#37474f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42555e', endColorstr='#37474f',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top,  #42555e 0%, #37474f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #42555e 0%,#37474f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #42555e 0%,#37474f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42555e', endColorstr='#37474f',GradientType=0 ); /* IE6-9 */
+    transition: all 0.3s;
   }
   .col-md-3:hover .textHover {
-    display:block;
-}
+    opacity: 1;
+    font-size: 1.5em;
+    width: 100%;
+  }
 }
 
