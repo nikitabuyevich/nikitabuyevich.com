@@ -4,13 +4,16 @@
  */
 $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 // import color variables
-@import 'imports/colors';
+@import 'public/imports/colors';
+
+@font-face {  
+  font-family: "Consolas-fnt";
+  src: url(public/fonts/Consolas.ttf) format("truetype");
+}
 
 @font-face {
-    font-family: "Consolas-fnt";
-    src: url(../../../assets/fonts/Consolas.ttf) format("truetype");
-    font-family: "UbuntuMono-fnt";
-    src: url(../../../assets/fonts/UbuntuMono.ttf) format("truetype");
+  font-family: "UbuntuMono-fnt";
+  src: url(public/fonts/UbuntuMono.ttf) format("truetype");
 }
 /**
  *  Do not remove the comments below. It's the markers used by wiredep to inject

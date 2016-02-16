@@ -53,3 +53,13 @@
           font-size: 3.4em;
     }
 }
+
+.svg-container {
+  @extend .container;
+  max-width: 800px;
+  margin-bottom: 30px;
+
+  svg {
+    max-width: 12em;
+  }
+}

@@ -82,8 +82,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42555e', end
   background: -webkit-linear-gradient(top,  #76c8f8 1%,#6eb9e6 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #76c8f8 1%,#6eb9e6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76c8f8', endColorstr='#6eb9e6',GradientType=0 ); /* IE6-9 */
-
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
