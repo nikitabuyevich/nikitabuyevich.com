@@ -13,7 +13,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="nb-navbar" ng-controller="ScrollToCtrl">
       <ul class="nav navbar-nav navbar-right">
-        <li class="outside-link"><a href="#">Blog</a></li>
+        <li class="outside-link"><a href="#" data-toggle="tooltip" data-placement="bottom" data-trigger="click" title="Coming Soon!">Blog</a></li>
         <li class="outside-link-resume"><a target="_blank" href="Nikita-Buyevich-Resume-2016.pdf">Resume</a></li>
         <li><a href="#about" du-smooth-scroll du-scrollspy>About</a></li>
         <li><a href="#projects" du-smooth-scroll du-scrollspy>Projects</a></li>
@@ -23,3 +23,9 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>

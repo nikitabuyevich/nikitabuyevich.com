@@ -28,5 +28,8 @@
 .social-icons-linkedin {
   @extend .social-icons;
   margin-left: 20px;
+}
 
+.link {
+  color: $title-text;
 }
