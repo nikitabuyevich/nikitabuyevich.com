@@ -1,14 +1,14 @@
 .projects {
   border-radius: 15px;
   text-align: center;
-  background: $blue-grey-600;
+  @extend .light-blue-grey-bg;
   position: relative;
   z-index: 1;
 	padding: 15px;
 	max-width: 300px;
 	margin-bottom: 50px;
 	overflow: hidden;
-	box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
 
 	&:hover {
 		img {
