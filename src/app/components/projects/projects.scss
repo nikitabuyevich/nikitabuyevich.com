@@ -22,7 +22,7 @@
 		}
 	}
 
-	.project-content {
+	#project-content {
 		margin: 5px;
 	}
 
@@ -77,7 +77,10 @@
 	font-size: 20px;
 }
 
-
+.projects-title {
+	@extend .title;
+	letter-spacing: 4px;
+}
 
 
 
