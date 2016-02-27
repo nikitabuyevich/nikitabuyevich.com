@@ -37,27 +37,31 @@
 /* xs < 768 */
 @media screen and (max-width: 767px) {
     .contact .title {
-          font-size: 1em;
+          font-size: 5vw;
+          letter-spacing: 1px;
     }
 }
 
 /* sm */
 @media screen and (min-width: 768px) {
     .contact .title {
-          font-size: 1.8em;
+          font-size: 2.2em;
+          letter-spacing: 8px;
     }
 }
 
 /* md */
 @media screen and (min-width: 992px) {
     .contact .title {
-          font-size: 2.8em;
+          font-size: 2.35em;
+          letter-spacing: 8px;
     }
 }
 
 /* lg */
 @media screen and (min-width: 1200px) {
     .contact .title {
-          font-size: 3.4em;
+          font-size: 2.4em;
+          letter-spacing: 8px;
     }
 }
