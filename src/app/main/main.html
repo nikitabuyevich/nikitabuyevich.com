@@ -103,8 +103,6 @@ jQuery;
 var body = document.body,
     timer, ranInit = !1,
     checkHeight = setInterval(function() {
-        document.querySelector(".canvas-area").clientHeight >= 0 && !ranInit ? (Initialize(), ranInit = !0) : ranInit && clearInterval(checkHeight)
-        (document.querySelector(".canvas-area").clientHeight >= 0 && document.querySelector(".canvas-area").clientWidth > 650) && !ranInit ? (Initialize(), ranInit = !0) : ranInit && clearInterval(checkHeight)
         (document.querySelector(".canvas-area").clientHeight >= 0 && document.querySelector(".canvas-area").clientWidth > 650) && !ranInit ? (Initialize(), ranInit = !0) : ranInit && clearInterval(checkHeight)
     }, 200);
 </script>
