@@ -103,14 +103,8 @@ jQuery;
 var body = document.body,
     timer, ranInit = !1,
     checkHeight = setInterval(function() {
-<<<<<<< HEAD
-<<<<<<< 5a8404d046daac5e74ac8217ab703fc880f333f8
         document.querySelector(".canvas-area").clientHeight >= 0 && !ranInit ? (Initialize(), ranInit = !0) : ranInit && clearInterval(checkHeight)
-=======
         (document.querySelector(".canvas-area").clientHeight >= 0 && document.querySelector(".canvas-area").clientWidth > 650) && !ranInit ? (Initialize(), ranInit = !0) : ranInit && clearInterval(checkHeight)
->>>>>>> Add https routing
-=======
         (document.querySelector(".canvas-area").clientHeight >= 0 && document.querySelector(".canvas-area").clientWidth > 650) && !ranInit ? (Initialize(), ranInit = !0) : ranInit && clearInterval(checkHeight)
->>>>>>> master
     }, 200);
 </script>
