@@ -2,7 +2,13 @@
   @extend .container;
   max-width: 800px;
   margin-bottom: 30px;
-  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
 
   svg {
     max-width: 8em;
@@ -29,7 +35,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42555e', endColorstr='#37474f',GradientType=0 ); /* IE6-9 */
     transition: all 0.3s;
   }
-  .col-md-3:hover .textHover {
+  .col-md-3:hover .textHover, .col-md-3:focus {
     opacity: 1;
     font-size: 1.5em;
     width: 100%;
